@@ -28,7 +28,7 @@
 // DIO0 pin:  2
 // RESET pin: 9
 // DIO1 pin:  3
-SX1278 radio = new Module(17, 13, 7, 15);
+SX1278 radio = new Module(14, 13, 7, 15);
 
 // or using RadioShield
 // https://github.com/jgromes/RadioShield

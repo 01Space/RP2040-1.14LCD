@@ -4,17 +4,17 @@
 
 # General Flashing Instructions:
 
+# Using arduinocore mbed
+
 With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.
 
 ![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
 
-
+# Using earlephilhower/arduino-pico
 https://github.com/earlephilhower/arduino-pico This link has a very detailed description
 
 Install Arduino IDE and install pico resources by adding line "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json" to Additional Boards Manager URLs in Arduino IDE Files / Preferences.
 Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry Pi Pico/RP2040 version 2.0.1 to install it.
-# The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
-
 
 # Upload sketch from Arduino IDE:
 

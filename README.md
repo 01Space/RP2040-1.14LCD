@@ -46,8 +46,6 @@ Installing MicroPython on Raspberry Pi Pico
 
 4. After successful installation, the MicroPython version and Raspberry board will appear in the Python Shell. To test we can write a quick print function to say “Hello World”. Press Enter to run the code. You will get Hello World as a response.
 
-# General Flashing Instructions:
-
 # Using arduinocore mbed
 
 With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.

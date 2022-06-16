@@ -7,16 +7,15 @@
 Without Lora version
 
 With Lora version
+With SX1278(410-525MHz，+18dBm)
 
-SX1278(410-525MHz，+18dBm)
+With SX1262(803-930MHz,+22dBm)
 
-SX1262(803-930MHz,+22dBm)
+With SX1268(410-525MHz,+22dBm)
 
-SX1268(410-525MHz,+22dBm)
+With LLCC68(410-525MHz,+22dBm)
 
-LLCC68(410-525MHz,+22dBm)
-
-SX1280(Coming soon)
+With SX1280(Coming soon)
 
 # If you select the sx127x module version, the SD card read / write function will not be supported
 

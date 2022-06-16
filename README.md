@@ -7,6 +7,7 @@
 Without Lora version
 
 With Lora version
+
 With SX1278(410-525MHz，+18dBm)
 
 With SX1262(803-930MHz,+22dBm)

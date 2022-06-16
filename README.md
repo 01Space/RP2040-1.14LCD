@@ -4,15 +4,16 @@
 
 # General Flashing Instructions:
 
+With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.
+
+![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
+
+
 https://github.com/earlephilhower/arduino-pico This link has a very detailed description
 
 Install Arduino IDE and install pico resources by adding line "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json" to Additional Boards Manager URLs in Arduino IDE Files / Preferences.
 Via Arduino IDE Tools/Board / Board Manager search for pico and choose Raspberry Pi Pico/RP2040 version 2.0.1 to install it.
 # The following Arduino libraries need to be installed（via option tools / Manage Libraries in Arduino IDE）
-
-
-
-
 
 
 # Upload sketch from Arduino IDE:
@@ -27,23 +28,18 @@ In some cases the Pico will encounter a hard hang and its USB port will not resp
 
 # Open Source / Contributors
 
-Larry Bank (gif_01space，ArduinoCore-mbed)
+jgromes (SX127X，ArduinoCore-mbed)
 
-Larry Bank (scd41_01space，ArduinoCore-mbed)
+jgromes (SX126X，ArduinoCore-mbed)
 
-With ArduinoCore-mbed Release 2.0.0, Arduino now support Raspberry Pi Pico officially. To program Raspberry Pi Pico in Arduino framework, install Arduino Mbed OS RP2040 Boards in Arduino IDE's Library Manager.
+jgromes (LLCC68(Use sx126x code)，ArduinoCore-mbed)
 
-![image](https://github.com/01Space/RP2040-0.42LCD/blob/main/image/Arduino%20Mbed%20OS%20RP2040%20Boards.jpg)
+jgromes (SX1280，ArduinoCore-mbed)
+
 
 The following libraries need to be installed
 
-OneBitDisplay
-
-BitBang_I2C
-
-SparkFun_SCD4x_Arduino_Library
-
-AnimatedGIF
+RadioLib
 
 And many many others who haven't been mentioned....
 

@@ -25,6 +25,10 @@ After the first upload, this should not be necessary as the core has auto-reset 
 
 In some cases the Pico will encounter a hard hang and its USB port will not respond to the auto-reset request. Should this happen, just follow the initial procedure of holding the BOOTSEL button down while plugging in the Pico to enter the ROM bootloader.
 
+# The following libraries need to be installed
+
+RadioLib（https://github.com/jgromes/RadioLib）
+TFT_eSPI （https://github.com/Bodmer/TFT_eSPI）
 
 # Open Source / Contributors
 
@@ -35,11 +39,6 @@ jgromes (SX126X，ArduinoCore-mbed)
 jgromes (LLCC68(Use sx126x code)，ArduinoCore-mbed)
 
 jgromes (SX1280，ArduinoCore-mbed)
-
-
-The following libraries need to be installed
-
-RadioLib
 
 And many many others who haven't been mentioned....
 

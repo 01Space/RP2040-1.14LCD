@@ -18,7 +18,7 @@ LLCC68(410-525MHz,+22dBm)
 
 SX1280(Coming soon)
 
-If you select the sx127x module version, the SD card read / write function will not be supported
+# If you select the sx127x module version, the SD card read / write function will not be supported
 
 # General Flashing Instructions:
 

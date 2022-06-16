@@ -2,6 +2,8 @@
 
 ![image](https://github.com/01Space/RP2040-1.14LCD/blob/main/image/RP2040-LORA.jpg)
 
+# There are 6 versions for you to choose from，SX1278(410-525MHz，+18dBm).SX1262(803-930MHz,+22dBm).SX1268(410-525MHz,+22dBm).LLCC68(410-525MHz,+22dBm).SX1280(Coming soon).If you select the sx127x module version, the SD card read / write function will not be supported
+
 # General Flashing Instructions:
 
 # Using arduinocore mbed

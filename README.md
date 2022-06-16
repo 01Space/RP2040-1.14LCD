@@ -20,6 +20,32 @@ With SX1280(Coming soon)
 
 # If you select the sx127x module version, the SD card read / write function will not be supported
 
+# programming in micropython
+
+To program the Raspberry Pi Pico using Micropython, you can either use:
+1. Thonny IDE
+2. uPyCraft IDE
+
+But before getting started with Raspberry Pi Pico, you have to install MicroPython on Raspberry Pi Pico Board.
+
+Installing MicroPython on Raspberry Pi Pico
+1. Push and hold the BOOTSEL button on the Pico, & then immediately connect the Pico Board to your computer using a micro USB cable. Release BOOTSEL once the drive RPI-RP2 appears on your computer.
+
+2. Open the RPI-RP2 drive that appears in the Drives tab.
+
+3. Download the MicroPython UF2 file (https://micropython.org/download/rp2-pico/)
+
+4. Drag and drop the UF2 file onto the RPI-RP2 drive. The Raspberry Pi Pico with RPwill reboot and will now run MicroPython.
+
+# Getting Started with Raspberry Pi Pico using MicroPython on Thonny IDE
+1. Now let us get started with Raspberry Pi Pico using MicroPython on Thonny IDE. First you have to download Thonny from the https://thonny.org/
+
+2. Connect the Raspberry Pi Pico to your computer. Then from Thonny go to Tools > Options and click on the Interpreter tab. From the interpreter dropdown list, select MicroPython (Raspberry Pi Pico). The port dropdown menu can be left to automatically detect the Pico. Click Ok to close.
+
+3. When you plugin the pico Board, a firmware installation tab will appear for raspberry pi pico. Click on Install & some files will be downloaded.
+
+4. After successful installation, the MicroPython version and Raspberry board will appear in the Python Shell. To test we can write a quick print function to say “Hello World”. Press Enter to run the code. You will get Hello World as a response.
+
 # General Flashing Instructions:
 
 # Using arduinocore mbed

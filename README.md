@@ -95,6 +95,8 @@ C:\Users\86186\Documents\Arduino\libraries\TFT_eSPI
 
 # User_Setup_Select.h
 
+ Only ONE line below should be uncommented
+ 
 #include <User_Setups/Setup135_ST7789.h> 
 
 # You can also use Arduino_ Gfx Library

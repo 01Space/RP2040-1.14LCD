@@ -115,6 +115,10 @@ jgromes (SX1280，ArduinoCore-mbed)
 
 And many many others who haven't been mentioned....
 
+# Community
+
+We have both a Discord Server 
+https://discord.gg/zEEvySU3
 
 
 # Contact 01Space

@@ -69,18 +69,18 @@ In some cases the Pico will encounter a hard hang and its USB port will not resp
 
 # The following libraries need to be installed
 
-RadioLib（https://github.com/jgromes/RadioLib）
+[RadioLib](https://github.com/jgromes/RadioLib)
 
 
 
-TFT_eSPI （https://github.com/Bodmer/TFT_eSPI）
+[TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
 
-If TFT is used_ The ESPI library needs to modify the following 7 lines
+If TFT is used the ESPI library needs to modify the following 7 lines
 
-C:\Users\86186\Documents\Arduino\libraries\TFT_eSPI
+### C:\Users\86186\Documents\Arduino\libraries\TFT_eSPI
 
-# Setup135_ST7789.h  
-
+**Setup135_ST7789.h**
+```
 #define TFT_MOSI            11
 
 #define TFT_SCLK            10
@@ -91,17 +91,18 @@ C:\Users\86186\Documents\Arduino\libraries\TFT_eSPI
 
 #define TFT_RST             12
 
-#define TFT_BL         2
+#define TFT_BL              2
+```
 
-# User_Setup_Select.h
+**User_Setup_Select.h**
 
  Only ONE line below should be uncommented
  
-#include <User_Setups/Setup135_ST7789.h> 
+`#include <User_Setups/Setup135_ST7789.h>`
 
-# You can also use Arduino_ Gfx Library
+# You can also use Arduino_Gfx Library
 
-Arduino_GFX(https://github.com/moononournation/Arduino_GFX)
+[Arduino_GFX](https://github.com/moononournation/Arduino_GFX)
 
 # Open Source / Contributors
 

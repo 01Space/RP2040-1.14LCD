@@ -1,6 +1,6 @@
 # RP2040-1.14LCD
 
-![image](https://github.com/01Space/RP2040-1.14LCD/blob/main/image/RP2040-LORA.jpg)
+![image](https://github.com/01Space/RP2040-1.14LCD/blob/main/image/RP2040-LORA%20(1).jpg)
 
 # There are 6 versions for you to choose from
 
